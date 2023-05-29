@@ -127,7 +127,7 @@ int print_reverse(va_list types, char buffer[],
 		;
 
 	for (i = i - 1; i >= 0; i--)
-	
+	{
 		char z = str[i];
 
 		write(1, &z, 1);
@@ -152,7 +152,7 @@ int print_rot13string(va_list types, char buffer[],
 	char x;
 	char *str;
 	unsigned int i, j;
-	int count = 0
+	int count = 0;
 	char in[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
 	char out[] = "NOPQRSTUVWXYZABCDEFGHIJKLMnopqrstuvwxyzabcdefghijklm";
 
