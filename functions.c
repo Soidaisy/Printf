@@ -136,7 +136,7 @@ int print_int(va_list types, char buffer[],
 		num /= 10;
 	}
 
-	i++
+	i++;
 
 	return (write_number(is_negative, i, buffer, flags, width, precision, size));
 }
@@ -185,3 +185,5 @@ int print_binary(va_list types, char buffer[],
 		}
 	}
 	return (count);
+}
+
